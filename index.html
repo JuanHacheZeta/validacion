@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validacion.css">
+
+    <style>
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="form">
+    <h2>Registro de Número de Control</h2>
+
+    <form action="#" id="numeroForm" method="get">
+        <label for="numero">Ingresa el número:</label>
+        <input type="text" id="numero" name="numero" placeholder="Ej: 15841234" maxlength="8" required>
+        <button type="submit">Enviar</button>
+        <p id="mensaje"></p>
+    </form>
+    </div>
+    
+    <script src="validacion.js"></script>
+
+</body>
+</html>
